@@ -1,0 +1,131 @@
+/* Fullscreen */
+@media (min-width: 1200px) {
+  /* Styles for fullscreen */
+  .footer-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .company-address {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .company-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .webinfo-container {
+    color: rgb(77, 0, 0);
+  }
+  .footer-main {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+  h5 {
+    margin: 3px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  h6 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .social {
+    margin: 3px;
+  }
+  .social-link {
+    display: flex;
+    flex-direction: row;
+  }
+  .social-media {
+    background-color: darkred;
+    font-size: small;
+    text-align: center;
+  }
+  .social-media:hover {
+    background-color: darkred;
+    color: white;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .company-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .webinfo-container {
+    color: rgb(77, 0, 0);
+  }
+  h3 {
+    margin: 2px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  h5 {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+  }
+  h6 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .social-media {
+    background-color: darkred;
+    font-size: small;
+    text-align: center;
+  }
+  .social-media:hover {
+    background-color: darkred;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .footer-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .company-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .webinfo-container {
+    color: rgb(77, 0, 0);
+  }
+  h5 {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 2px;
+  }
+  h6 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .social-media {
+    background-color: darkred;
+    font-size: small;
+    text-align: center;
+  }
+  .social-media:hover {
+    background-color: darkred;
+    color: white;
+  }
+}

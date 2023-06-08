@@ -1,0 +1,38 @@
+/* Fullscreen */
+@media (min-width: 1200px) {
+  /* Styles for fullscreen */
+
+  .company-greeting {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+    border-radius: 12pt;
+    box-shadow: 12px 12px 16px rgba(159, 0, 0, 1);
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .company-greeting {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+    border-radius: 12pt;
+    box-shadow: 12px 12px 16px rgba(159, 0, 0, 1);
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .company-greeting {
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+    border-radius: 12pt;
+    box-shadow: 12px 12px 16px rgba(159, 0, 0, 1);
+    font-weight: bold;
+  }
+}
