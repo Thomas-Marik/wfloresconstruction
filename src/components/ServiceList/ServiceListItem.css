@@ -1,0 +1,9 @@
+.service-list-item {
+  color: darkred;
+  margin-left: 15px;
+  width: calc(50% - 10px);
+  text-align: center;
+}
+.service-list-item h4 {
+  text-align: center;
+}

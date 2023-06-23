@@ -1,0 +1,109 @@
+/* Fullscreen */
+@media (min-width: 1200px) {
+  /* Styles for fullscreen */
+
+  .area-map {
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+  }
+  .area-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 10px;
+    border-radius: 12px;
+    width: 80%;
+  }
+  .areaScreen-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .map-info {
+    width: 80%;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 6px rgba(159, 0, 0, 1);
+  }
+  .info {
+    margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .area-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 10px;
+    border-radius: 12px;
+    width: 80%;
+  }
+  .areaScreen-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .map-info {
+    width: 80%;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 6px rgba(159, 0, 0, 1);
+  }
+  .info {
+    margin-left: 5%;
+  }
+  .area-map {
+    border-radius: 20px;
+    height: 80%;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .area-map {
+    border-radius: 20px;
+    height: 80%;
+    width: 80%;
+  }
+  .areaScreen-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 10px;
+    border-radius: 12px;
+    width: 80%;
+  }
+  .area-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .map-info {
+    width: 80%;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 6px rgba(159, 0, 0, 1);
+  }
+  .info {
+    margin-left: 5%;
+  }
+  .map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
