@@ -11,7 +11,7 @@
 
   .gallery-item {
     width: calc(15% - 10px);
-    height: 150px;
+    height: 125px;
     margin: 10px;
   }
 
@@ -39,7 +39,7 @@
 
   .gallery-item {
     width: calc(22% - 7px);
-    height: 150px;
+    height: 125px;
     margin: 5px;
   }
 

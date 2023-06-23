@@ -55,31 +55,46 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .footer-container {
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-
+  .company-address {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
   .company-container {
     display: flex;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
   }
   .webinfo-container {
     color: rgb(77, 0, 0);
   }
-  h3 {
-    margin: 2px;
-    color: rgba(255, 255, 255, 0.5);
+  .footer-main {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
   }
   h5 {
+    margin: 3px;
     color: rgba(255, 255, 255, 0.5);
-    margin: 10px;
   }
   h6 {
     color: rgba(255, 255, 255, 0.5);
+  }
+  .social {
+    margin: 3px;
+  }
+  .social-link {
+    display: flex;
+    flex-direction: row;
   }
   .social-media {
     background-color: darkred;

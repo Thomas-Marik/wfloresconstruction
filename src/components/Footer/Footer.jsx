@@ -12,12 +12,19 @@ const Footer = () => {
           <div className="social-link">
             <a
               className="social-media"
-              href="https://www.twitter.com/FnVServices"
+              href="https://www.twitter.com/"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaTwitter className="social" color="white" size={30} />
               <p className="social">@FnVServices</p>
             </a>
-            <a className="social-media" href="./">
+            <a
+              className="social-media"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaInstagramSquare className="social" color="white" size={30} />
               <p className="social">FnVServices</p>
             </a>
